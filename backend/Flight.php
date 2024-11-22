@@ -22,7 +22,7 @@ class Flight {
         $deltaLat = $lat2 - $lat1;
         $deltaLon = $lon2 - $lon1;
     
-        // Haversine formula
+        // Formula
         $a = sin($deltaLat / 2) * sin($deltaLat / 2) +
              cos($lat1) * cos($lat2) *
              sin($deltaLon / 2) * sin($deltaLon / 2);
